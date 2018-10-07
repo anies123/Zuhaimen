@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MY PAGES</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #9400D3;
+    padding: 25px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    height: 470px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background: white;
+    height: 470px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>My Autobiography</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	<a href="Pictures.html"><h3>Pictures</h3></a>
+        <a href="brother and sister.html"><h3>My Brother and Sister</h3></a>
+        <a href="sports.html"><h3>Sports</h3></a>  
+	<a href="http://www.rvmonline.net/ndrvmcc/"><h3>Rvm website</h3></a>
+        <a href="https://www.youtube.com/watch?v=-i2x70oDctY"><h3>Vlog 1</h3></a>
+        <a href="https://www.youtube.com/watch?v=iBFljUfLZv4&feature=youtu.be"><h3>Vlog 2</h3></a>
+    </ul>
+  </nav>
+  
+  <article>
+    <img src="p1.jpg" width="260" height="310">
+    <h1>Hi!</h1>
+    <p>My name is Zuhaimen M. Wacab i live in Esteros cotabato city I Am 17 years Old  i was born April 09, 2001 i am Senior High School student in NDRVMCC 11-St.Francis De Sales,and i want to be a certified chef some Day.</p>
+  </article>
+</section>
+
+
+</body>
+</html>
